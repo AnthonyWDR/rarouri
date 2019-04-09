@@ -1,13 +1,12 @@
 html {
   font-size: 18px;
   font-family: helvetica;
-  background-color: black;
-  color: white;
+  background-color: #FFFF;
+  color: #2C3E50;
 }
 header {
 display: flex;
 align-items: center;
-border-bottom: 0.3rem solid yellow;
 }
 header .navlogo {
   width: 20%;
@@ -16,13 +15,24 @@ header  .navlogo2 {
   width: 11%;
 }
 header a {
-  color: white;
   margin: auto;
+  color: #2C3E50;
+  font-size: 1.5rem;
 }
 header span {
   font-size: 2rem;
   padding-top: 0.4rem;
-  border-right: 0.3rem solid yellow;
+  padding-right: 3.5rem;
+  border-right: 0.3rem solid #2C3E50;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2C3E50;
+  color: #FFFF;
+}
+content {
+
 }
 
 
