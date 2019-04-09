@@ -46,9 +46,8 @@ content {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 50%;
+  max-width: 45%;
   position: relative;
-  margin-right: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
