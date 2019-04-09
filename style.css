@@ -32,8 +32,8 @@ nav {
   color: #FFFF;
   width: 100%;
 }
-content {
-
+.container {
+display: flex
 }
 
 
@@ -118,7 +118,8 @@ content {
   position: relative; z-index: 10;
 }
 .video {
-
+  display: block;
+  max-width: 45%
 }
 .active, .dot:hover {
   background-color: #717171;
