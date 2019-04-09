@@ -1,8 +1,16 @@
 html {
   font-size: 18px;
-  font-family: helvetica;
-  background-color: #FFFF;
+  font-family: "Open Sans";
+  background-color: #E1E3E4;
   color: #2C3E50;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
 header {
 display: flex;
@@ -14,10 +22,10 @@ header .navlogo {
 header  .navlogo2 {
   width: 11%;
 }
-header a {
+header .info {
   margin: auto;
   color: #2C3E50;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 header span {
   font-size: 2rem;
@@ -27,13 +35,21 @@ header span {
 }
 nav {
   display: flex;
-  justify-content: space-around;
+  border: 1px solid red;
   background-color: #2C3E50;
   color: #FFFF;
   width: 100%;
 }
+nav p {
+  align-self: center;
+  border: 1px solid white;
+}
 .container {
-display: flex
+display: flex;
+width: 100%;
+}
+.video {
+  max-width: 45%;
 }
 
 
@@ -116,10 +132,6 @@ display: flex
   display: inline-block;
   transition: background-color 0.6s ease;
   position: relative; z-index: 10;
-}
-.video {
-  display: block;
-  max-width: 45%
 }
 .active, .dot:hover {
   background-color: #717171;
