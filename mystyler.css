@@ -16,10 +16,11 @@ header {
   display: flex;
   justify-content: center;
 }
-.bannerspacing .container{
+.bannerspacing {
+  width: 1000px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  width: 1000px;
 }
 .title h1, .title h2 {
   color: #2C3E50;
