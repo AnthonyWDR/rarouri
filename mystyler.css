@@ -4,13 +4,8 @@ textwhite = #FFFF
 blue = #2C3E50
 grey = #E1E3E4
 */
-html {
-  background-image: url("images/bg1.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-}
+
+
 body {
   background-color: #E1E3E4;
   font-size: 18px;
@@ -41,6 +36,9 @@ header {
 }
 .info li {
   padding: 18px 30px 18px 30px;
+  color: #2C3E50;
+}
+.info a {
   color: #2C3E50;
 }
 .info li:hover {
@@ -96,5 +94,4 @@ nav li:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
