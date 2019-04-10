@@ -1,15 +1,29 @@
-#logo_inner h1 {
-  font-size: 3rem;
-  color: #2C3E50;
-  margin-bottom: 1rem;
+/*
+turquoise = #1abc9c
+textwhite = #FFFF
+blue = #2C3E50
+grey = #E1E3E4
+*/
+html {
+  font-size: 18px;
+  font-family: "Open Sans";
+  background-color: #E1E3E4;
 }
-#logo_inner h2 {
-  text-decoration: underline;
+.bannerspacing {
+  width: 1000px;
 }
-#perso a {
-  margin: 1rem 0 0 0;
-}
-
-.logonext img {
+.logo img {
   height: 140px;
+}
+a {
+  text-decoration: none;
+  color: #FFFF;
+}
+.fullnav {
+  width: 100%;
+  height: 60px;
+  background-color: #2C3E50;
+}
+nav ul {
+  display: flex;
 }
