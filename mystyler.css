@@ -4,8 +4,8 @@ textwhite = #FFFF
 blue = #2C3E50
 grey = #E1E3E4
 */
-* {
-
+.title, .info, .logo {
+  border: 1px solid lime;
 }
 body {
   background-color: #E1E3E4;
@@ -21,6 +21,7 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  border: 1px solid red;
 }
 .title h1, .title h2 {
   color: #2C3E50;
