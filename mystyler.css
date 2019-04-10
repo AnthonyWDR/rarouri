@@ -1,0 +1,15 @@
+#logo_inner h1 {
+  font-size: 3rem;
+  color: #2C3E50;
+  margin-bottom: 1rem;
+}
+#logo_inner h2 {
+  text-decoration: underline;
+}
+#perso a {
+  margin: 1rem 0 0 0;
+}
+
+.logonext img {
+  height: 140px;
+}

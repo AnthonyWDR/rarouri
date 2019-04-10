@@ -1,0 +1,53 @@
+html {
+  background-color: #E1E3E4;
+  color: #2C3E50;
+}
+a {
+  text-decoration: none;
+  color: #2C3E50;
+}
+#ban_top {
+  position: relative;
+  z-index: 200;
+  min-width: 1000px;
+}
+#logo img {
+  height: 140px;
+}
+#info {
+  width: 160px;
+  float: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  position: relative;
+  line-height: 40px;
+  font-weight: 300;
+  font-family: "Armata";
+  font-size: 100%;
+}
+#info span, #info a {
+  width: 100px;
+  height: 44px;
+}
+.whitehover:hover {
+  background-color: #FFFF;
+  border-radius: 5px;
+  transition: 0.2s all;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+/* :hover {
+background-color: #1abc9c;
+} */
+.containers {
+  width: 1000px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+#ban_top .containers {
+  display: flex;
+}
