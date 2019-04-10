@@ -6,7 +6,9 @@ grey = #E1E3E4
 */
 html {
   background-image: url("images/bg1.png");
-  background-repeat:;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 body {
   background-color: #E1E3E4;
