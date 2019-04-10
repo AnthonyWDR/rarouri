@@ -4,7 +4,10 @@ textwhite = #FFFF
 blue = #2C3E50
 grey = #E1E3E4
 */
-
+html {
+  background-image: url("images/bg1.png");
+  background-repeat:;
+}
 body {
   background-color: #E1E3E4;
   font-size: 18px;
@@ -86,7 +89,7 @@ nav li:hover {
 .pageheader {
   height: 76px;
   width: 100%;
-  background-image: url(images/img9.jpg);
+  background-image: url("images/img9.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
