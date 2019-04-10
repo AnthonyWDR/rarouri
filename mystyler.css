@@ -4,9 +4,7 @@ textwhite = #FFFF
 blue = #2C3E50
 grey = #E1E3E4
 */
-.title, .info, .logo {
-  border: 1px solid lime;
-}
+
 body {
   background-color: #E1E3E4;
   font-size: 18px;
@@ -34,7 +32,6 @@ header {
 .info {
   display: flex;
   align-items: center;
-  border: 1px solid black;
 }
 .info li {
   padding: 18px 30px 18px 30px;
@@ -73,7 +70,7 @@ nav ul {
   display: flex;
 }
 nav li {
-  padding: 22px 30px 22px 30px;
+  padding: 21px 30px 21px 30px;
 }
 .home {
   background-color: #1abc9c;
