@@ -4,16 +4,25 @@ textwhite = #FFFF
 blue = #2C3E50
 grey = #E1E3E4
 */
-html {
-  font-size: 18px;
-  font-family: "Open Sans";
+* {
+
+}
+body {
   background-color: #E1E3E4;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  display: flex;
+  justify-content: center;
 }
 .bannerspacing {
   width: 1000px;
+  display: flex;
 }
 .logo img {
   height: 140px;
+  margin-left: 350px;
 }
 a {
   text-decoration: none;
@@ -28,17 +37,18 @@ a {
 }
 .container {
   width: 1000px;
-  margin: auto;
-
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 nav ul {
   display: flex;
-  justify-content: space-around;
 }
 nav li {
-  padding: ;
-  height: 60px;
-  align-self: center;
+  padding: 19px 30px 20px 30px;
+}
+.acceuil {
+  background-color: #1abc9c;
 }
 nav li:hover {
   background-color: #1abc9c;
