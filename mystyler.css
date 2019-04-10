@@ -19,9 +19,14 @@ header {
 .bannerspacing {
   width: 1000px;
   display: flex;
+  justify-content: space-between;
+}
+.title h1, .title h2 {
+  color: #2C3E50;
 }
 .info li {
   padding: 19px 30px 20px 30px;
+  color: #2C3E50;
 }
 .info li:hover {
   background-color: #FFFF;
@@ -34,7 +39,6 @@ header {
 }
 .logo img {
   height: 140px;
-  margin-left: 350px;
 }
 a {
   text-decoration: none;
