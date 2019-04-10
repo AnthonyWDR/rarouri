@@ -20,6 +20,18 @@ header {
   width: 1000px;
   display: flex;
 }
+.info li {
+  padding: 19px 30px 20px 30px;
+}
+.info li:hover {
+  background-color: #FFFF;
+  transition: 0.2s all;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+  border-radius: 10px;
+}
 .logo img {
   height: 140px;
   margin-left: 350px;
