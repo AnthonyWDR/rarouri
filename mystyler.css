@@ -40,3 +40,11 @@ nav li {
   height: 60px;
   align-self: center;
 }
+nav li:hover {
+  background-color: #1abc9c;
+  transition: 0.2s all;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
