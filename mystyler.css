@@ -9,6 +9,7 @@ html {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  height: 100%;
 }
 body {
   background-color: #E1E3E4;
