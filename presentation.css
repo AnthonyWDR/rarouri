@@ -105,3 +105,10 @@ nav li:hover {
     transition-timing-function: ease;
     transition-delay: 0s;
 }
+.box {
+  display: flex;
+}
+.box img {
+  width: 50%;
+  height: 100%;
+}
