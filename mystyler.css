@@ -5,6 +5,13 @@ blue = #2C3E50
 grey = #E1E3E4
 */
 
+#allcontent {
+  background-image: url("images/slide/01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
 
 body {
   background-color: #E1E3E4;
@@ -12,6 +19,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 header {
+  margin-top: 60px;
   display: flex;
   justify-content: center;
 }
@@ -21,27 +29,40 @@ header {
   display: flex;
   justify-content: space-between;
 }
+.title {
+  align-self: flex-start;
+}
 .title h1, .title h2 {
   color: #2C3E50;
 }
 .title h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .title h2 {
-  font-size: 1rem;
+  font-size: 1.7rem;
+  text-align: right;
+  margin-top: 0.5rem;
 }
 .info {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  margin-bottom: 5px;
+}
+.tel {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "advent";
+  margin-left: 8px;
 }
 .info li {
-  padding: 18px 30px 18px 30px;
+  padding: 15px 0px 15px 10px;
   color: #2C3E50;
 }
 .info a {
   color: #2C3E50;
+  padding: 15px 10px 15px 10px;
 }
-.info li:hover {
+.info a:hover {
   background-color: #FFFF;
   transition: 0.2s all;
     transition-property: all;
@@ -90,8 +111,11 @@ nav li:hover {
 .pageheader {
   height: 76px;
   width: 100%;
-  background-image: url("images/img9.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+}
+.content {
+  width: 1000px;
+  margin: 40px auto 40px auto;
+  padding: 40px;
+
 }
