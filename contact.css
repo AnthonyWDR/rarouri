@@ -24,6 +24,12 @@ header {
 .title {
   align-self: flex-start;
 }
+.con h2, .con p {
+  color: #2C3E50;
+}
+label {
+  color: #2C3E50;
+}
 .title h1, .title h2 {
   color: #2C3E50;
 }
@@ -134,6 +140,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 10px;
+  margin-top: 60px;
 }
 
 /* Create two columns that float next to eachother */
