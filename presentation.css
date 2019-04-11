@@ -107,7 +107,7 @@ nav li:hover {
 }
 .content {
   width: 1100px;
-  margin: 0 auto;
+  margin: 60px auto;
 }
 .box {
   display: flex;
