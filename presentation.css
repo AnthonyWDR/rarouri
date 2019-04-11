@@ -105,10 +105,18 @@ nav li:hover {
     transition-timing-function: ease;
     transition-delay: 0s;
 }
+.content {
+  width: 1100px;
+  margin: 0 auto;
+}
 .box {
   display: flex;
+  border: 1px solid red;
 }
 .box img {
   width: 30%;
   height: 100%;
+}
+.box.three  img {
+  margin-left: auto;
 }
