@@ -11,7 +11,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 header {
-  margin-top: 60px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
 }
@@ -24,7 +24,7 @@ header {
 .title {
   align-self: flex-start;
 }
-.con h2, .con p {
+.con p {
   color: #2C3E50;
 }
 label {
@@ -138,7 +138,6 @@ input[type=submit]:hover {
 /* Style the container/contact section */
 .con {
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 10px;
   margin-top: 60px;
 }
