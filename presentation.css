@@ -127,3 +127,9 @@ nav li:hover {
 .box.two  img {
   margin-left: auto;
 }
+.box.two , .box.four {
+  text-align: ;
+}
+.box.one img , .box.three img {
+  margin-right: 60px;
+}
