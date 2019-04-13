@@ -5,7 +5,9 @@ blue = #2C3E50
 grey = #E1E3E4
 */
 
+head {
 
+}
 
 body {
   background-color: #E1E3E4;
@@ -114,12 +116,5 @@ nav li:hover {
 }
 .content {
   display: flex;
-
-}
-.video {
-  width: 1280px;
-  margin: 0 auto;
-  height: 720px;
-  margin-bottom: 60px;
-
+  
 }
