@@ -115,11 +115,18 @@ nav li:hover {
 
 }
 .content {
-
+  margin: 0 auto 60px auto;
   width: 1100px;
-  margin: 0 auto;
   border: 1px solid red;
 }
-.content img {
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+.content .freak {
   max-width: 1100px;
+}
+.content img {
+  max-height: 618.75px;
+  align-self: center;
 }
