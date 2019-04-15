@@ -132,6 +132,9 @@ nav li:hover {
 .allcontent {
   margin-bottom: 60px;
 }
+.row {
+  display: flex;
+}
 
 
 
