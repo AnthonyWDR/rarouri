@@ -92,7 +92,7 @@ nav ul {
   display: flex;
 }
 nav li {
-  padding: 21px 31.3px 21px 31.3px;
+  padding: 21px 30.2px 21px 30.2px;
 }
 .home {
   background-color: #1abc9c;
@@ -150,7 +150,6 @@ nav li:hover {
 /* Dropdown Button */
 .dropbtn {
   padding: 16px;
-  font-size: 16px;
   border: none;
 }
 .dropdown-content {

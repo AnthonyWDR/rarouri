@@ -1,0 +1,179 @@
+/*
+turquoise = #1abc9c
+textwhite = #FFFF
+blue = #2C3E50
+grey = #E1E3E4
+*/
+
+head {
+
+}
+
+body {
+  background-color: #E1E3E4;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.bannerspacing {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  align-self: flex-start;
+}
+.title h1, .title h2 {
+  color: #2C3E50;
+}
+.title h1 {
+  font-size: 4rem;
+}
+.title h2 {
+  font-size: 1.7rem;
+  text-align: right;
+  margin-top: 0.5rem;
+}
+.info {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 5px;
+  margin-left: 130px;
+  padding-bottom: 0px;
+}
+.tel {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "advent";
+  margin-right: 11px;
+}
+.info li {
+  color: #2C3E50;
+}
+.info a {
+  color: #2C3E50;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+  padding: 15px 14px 15px 0px;
+}
+.info a:hover {
+  background-color: #FFFF;
+  transition: 0.2s all;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+  border-radius: 10px;
+}
+.logo img {
+  height: 176px;
+}
+a {
+  text-decoration: none;
+  color: #FFFF;
+}
+.fullnav {
+  width: 100%;
+  height: 60px;
+  background-color: #2C3E50;
+  align-items: center;
+  display: flex;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  padding: 21px 30.2px 21px 30.2px;
+}
+.container .home {
+  background-color: #1abc9c;
+  color: #FFFF;
+}
+nav li:hover {
+  background-color: #1abc9c;
+  transition: 0.2s all;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.content {
+  margin: 60px auto 60px auto;
+  width: 1100px;
+}
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+.content .freak {
+  max-width: 1100px;
+}
+.content img {
+  max-height: 618.75px;
+  align-self: center;
+}
+.allcontent {
+  margin-bottom: 60px;
+}
+.row {
+  display: flex;
+}
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  padding: 16px;
+  border: none;
+}
+.dropdown-content {
+   width: 100%;
+   left: 0;
+   top: 60px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #E1E3E4;
+  min-width: 161px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #2C3E50;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #1abc9c; color: #FFFF;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}

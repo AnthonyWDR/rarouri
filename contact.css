@@ -98,7 +98,7 @@ nav ul {
   display: flex;
 }
 nav li {
-  padding: 21px 31.3px 21px 31.3px;
+  padding: 21px 30.2px 21px 30.2px;
 }
 .home {
   background-color: #1abc9c;
@@ -112,7 +112,11 @@ nav li:hover {
     transition-delay: 0s;
 }
 
-
+.con .formtext p{
+  margin-left: 20px;
+  margin-bottom: 50px;
+  font-size: 22px;
+}
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
