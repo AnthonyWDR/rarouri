@@ -36,6 +36,24 @@ header {
   margin-top: 0.5rem;
   color: #2C3E50;
 }
+.title p {
+  text-align: center;
+  margin-left: 110px;
+  font-size: 1.2rem;
+  color: red;
+  font-weight: bold;
+  font-family: helvetica;
+}
+.title p {
+    animation:blinkingText 3s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: transparent;    }
+    49%{    color: red; }
+    50%{    color: transparent; }
+    99%{    color: red;  }
+    100%{   color: transparent;    }
+}
 .info {
   display: flex;
   align-items: flex-end;

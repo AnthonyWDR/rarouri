@@ -19,6 +19,9 @@
         <div class="title">
             <h1>Résidence KAHAIA</h1>
             <h2>PAPEETE - TIPAERUI, début PIC VERT</h2>
+            <br>
+            <p>TARIFS PROMOTEUR</p>
+        
         </div>
         <div class="info">
           <ul style="list-style: none;">
@@ -32,12 +35,12 @@
     </div>
     </header>
 
-    <div class="fullnav">
+    <div id="fullnav">
         <nav class="container">
           <ul style="list-style: none;">
             <li><a href="./index.html">Acceuil</a></li>
             <li><a href="./presentation.html">Présentation</a></li>
-            <li><a href="./localisation.html">Localisation</a></li>
+            <li><a href="./localisation.html">Situation</a></li>
             <li class="dropdown home"><a class="dropbtn" >Les Appartements</a>
               <div class="dropdown-content">
                 <a href="f1.html">F1</a>
@@ -198,6 +201,19 @@
 
       });
       </script>
+      <script>
+  window.onscroll = function() {myFunction()};
 
+  var fullnav = document.getElementById("fullnav");
+  var sticky = fullnav.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      fullnav.classList.add("sticky")
+    } else {
+      fullnav.classList.remove("sticky");
+    }
+  }
+  </script>
 </body>
 </html>
