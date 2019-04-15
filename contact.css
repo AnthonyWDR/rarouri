@@ -111,10 +111,14 @@ nav li:hover {
     transition-timing-function: ease;
     transition-delay: 0s;
 }
-
+.content  {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
 .con .formtext p{
   margin-left: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   font-size: 22px;
 }
 /* Style inputs */
@@ -148,12 +152,31 @@ input[type=submit]:hover {
 
 /* Create two columns that float next to eachother */
 .column {
-  float: left;
+
   width: 50%;
   margin-top: 6px;
   padding: 20px;
-}
 
+  width: 100%;
+}
+.row  {
+  width: 600px;
+}
+.contactinfo {
+  margin-top: 175px;
+  margin-right: 180px;
+}
+.contactinfo h1 {
+  color: red;
+  font-weight: bold;
+}
+.contactinfo p {
+  line-height: 1.2;
+  margin: 0px;
+}
+.formtext p {
+  line-height: 1.2;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";

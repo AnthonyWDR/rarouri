@@ -115,6 +115,12 @@ nav li:hover {
   width: 100%;
 
 }
+.verify h1 {
+  margin: 30px;
+  margin-left: 170px;
+  color: red;
+  font-weight: bold;
+}
 .content {
   margin: 0 auto 60px auto;
   width: 1100px;
@@ -131,7 +137,7 @@ nav li:hover {
 }
 .allcontent {
   margin-bottom: 60px;
-  margin-top: 60px;
+  margin-top: px;
 }
 .row {
   display: flex;
