@@ -5,6 +5,7 @@ blue = #2C3E50
 grey = #E1E3E4
 */
 
+
 body {
   background-color: #E1E3E4;
   font-size: 18px;
@@ -23,12 +24,6 @@ header {
 }
 .title {
   align-self: flex-start;
-}
-.con p {
-  color: #2C3E50;
-}
-label {
-  color: #2C3E50;
 }
 .title h1, .title h2 {
   color: #2C3E50;
@@ -89,7 +84,7 @@ a {
   display: flex;
 }
 .container {
-  min-width: 1300px;
+  width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -111,70 +106,27 @@ nav li:hover {
     transition-timing-function: ease;
     transition-delay: 0s;
 }
-
-
-/* Style inputs */
-input[type=text], select, textarea {
+.pageheader {
+  height: 76px;
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+
 }
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 60px auto;
 }
-
-input[type=submit]:hover {
-  background-color: #45a049;
+.content img {
+  margin: 0 auto;
+  max-height: 600px;
 }
-
-/* Style the container/contact section */
-.con {
-  border-radius: 5px;
-  padding: 10px;
-  margin-top: 60px;
-}
-
-/* Create two columns that float next to eachother */
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-
-
-
-
-
-
 
 
 /* Dropdown Button */
 .dropbtn {
   padding: 16px;
+  font-size: 16px;
   border: none;
 }
 .dropdown-content {
