@@ -28,9 +28,6 @@ header {
 .title {
   align-self: flex-start;
 }
-.title h1, .title h2 {
-  color: #2C3E50;
-}
 .title h1 {
   font-family: "advent";
   font-size: 5rem;
@@ -40,12 +37,12 @@ header {
   font-size: 1.7rem;
   text-align: left;
   margin-top: 0.5rem;
+  color: #2C3E50;
 }
 .info {
   display: flex;
   align-items: flex-end;
   margin-bottom: 5px;
-  margin-left:;
   padding-bottom: 0px;
 }
 .tel {
