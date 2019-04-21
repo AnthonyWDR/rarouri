@@ -352,4 +352,9 @@ nav li:hover {
     height: 100%;
     overflow: hidden;
 }
+#allcontent img {
+  max-width: 40%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
 }
