@@ -197,3 +197,153 @@ nav li:hover {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
+
+
+/* css code added by https://www.fiverr.com/kaycobadjony */
+.openbtn {
+  display: none;
+}
+.closebtn {
+  display: none;
+}
+@media (max-width: 1150px) {
+  .content {
+    width: auto;
+  }
+}
+@media (max-width: 1100px) {
+  .title h1 {
+    font-size: 4rem;
+}
+.logo img {
+  height: 136px;
+}
+  header {
+    margin-top: 0;
+    padding-top: 20px;
+  }
+  .openbtn {
+    display: inline-block;
+    color: white;
+    padding: 0 20px;
+  }
+  .closebtn {
+    display:block;
+    color: white;
+    text-align: right;
+    padding: 10px 20px;
+  }
+  .main-nav {
+    display:none;
+    width: 100%;
+    background: rgba(0,0,0,.9);
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    min-height: 100vh;
+    z-index:200;
+  }
+  .main-nav ul {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bannerspacing {
+    width:90%;
+    justify-content: space-around;
+}
+  .title h1 {
+    font-size: 3rem;
+}
+.title h2 {
+  font-size: 1.4rem;
+}
+.logo img {
+  height: 126px;
+}
+.tel {
+  font-size: 1.4rem;
+}
+.info a {
+  font-size: 1.1rem;
+}
+.video {
+  max-width: 90%;
+  height: 620px;
+}
+}
+@media (max-width: 800px) {
+  .title h1 {
+    font-size: 2.1rem;
+}
+.title h2 {
+  font-size: 1rem;
+}
+.title p {
+  font-size: .8rem;
+}
+.logo img {
+  height: 106px;
+}
+.tel {
+  font-size: 1rem;
+}
+.info a {
+  font-size: .8rem;
+}
+.video {
+  height: 540px;
+}
+}
+
+@media (max-width: 600px) {
+  .bannerspacing {
+    width:95%;
+}
+.title {
+  width:30%;
+}
+.info {
+  width: 40%;
+  text-align: center;
+}
+.logo {
+  width: 30%;
+}
+  .title h1 {
+    font-size: 1.6rem;
+}
+.title h2 {
+  font-size: .7rem;
+}
+.title p {
+  font-size: .6rem;
+  margin-left: 0px;
+  margin-top: 7px;
+}
+.title br {
+  display:none;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+.tel {
+  font-size: .8rem;
+  margin-left: 0;
+}
+.info ul {
+  width: 100%;
+}
+.info a {
+  font-size: .8rem;
+  display: block;
+}
+.video {
+  height: 300px;
+}
+}
