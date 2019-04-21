@@ -12,9 +12,11 @@ grey = #E1E3E4
   background-size: cover;
   height: 900px;
 }
+
 #allcontent img {
   max-width: 30%;
-  margin-left: 4rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
 }
 
 body {
@@ -340,5 +342,14 @@ nav li:hover {
 .info a {
   font-size: .8rem;
   display: block;
+}
+#allcontent {
+  background: url("images/slide/01.jpg") no-repeat right right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
 }
