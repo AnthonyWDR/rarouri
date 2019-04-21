@@ -247,9 +247,7 @@ nav li:hover {
   .box.one img, .box.three img, .box.two img, .box.four img {
     margin:0!important;
 }
-.box img {
-  width: 100%;
-}
+
 .box.four {
   margin-top: 0;
 }
@@ -391,4 +389,7 @@ nav li:hover {
 .box.two, .box.four {
   flex-direction: column-reverse;
 }
+    .box img {
+        width:100%;
+    }
 }
