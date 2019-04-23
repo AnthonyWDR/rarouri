@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nextimmo</title>
     <link rel="stylesheet" href="./reset.css" type="text/css">
     <link rel="stylesheet" href="./f4.css" type="text/css">
@@ -36,7 +38,10 @@
     </header>
 
     <div id="fullnav">
-        <nav class="container">
+        <span class="openbtn" style="font-size:30px;cursor:pointer">☰</span>
+        <p class="mobile-tariff">TARIFS PROMOTEUR</p>
+        <nav class="container main-nav">
+            <span class="closebtn" style="font-size:45px;cursor:pointer">&times;</span>
           <ul style="list-style: none;">
             <li><a href="./index.html">Acceuil</a></li>
             <li><a href="./presentation.html">Présentation</a></li>
@@ -164,5 +169,18 @@
     }
   }
   </script>
+  <script>
+	    $(document).ready(function(){
+    		$(".openbtn").click(function(){
+      			$(".main-nav").show(500);
+    		});
+        $("li:not(.dropdown)").click(function () {
+        		$(".main-nav").hide(500);
+    		});
+        $(".closebtn").click(function () {
+        		$(".main-nav").hide(500);
+    		});
+  		});
+	</script>
 </body>
 </html>
