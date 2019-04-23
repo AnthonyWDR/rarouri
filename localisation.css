@@ -214,6 +214,13 @@ nav li:hover {
     width: calc(100% - 115px);
     animation: blinkingText 3s infinite;
   }
+  @keyframes blinkingText{
+      0%{     color: transparent;    }
+      49%{    color: yellow; }
+      50%{    color: transparent; }
+      99%{    color: yellow;  }
+      100%{   color: transparent;    }
+  }
   .title p {
     display: none;
   }
@@ -261,6 +268,13 @@ nav li:hover {
     width:90%;
     justify-content: space-around;
 }
+@keyframes blinkingText{
+    0%{     color: transparent;    }
+    49%{    color: yellow; }
+    50%{    color: transparent; }
+    99%{    color: yellow;  }
+    100%{   color: transparent;    }
+}
   .title h1 {
     font-size: 3rem;
 }
@@ -280,6 +294,13 @@ nav li:hover {
 @media (max-width: 800px) {
   .content {
     flex-direction: column;
+  }
+  @keyframes blinkingText{
+      0%{     color: transparent;    }
+      49%{    color: yellow; }
+      50%{    color: transparent; }
+      99%{    color: yellow;  }
+      100%{   color: transparent;    }
   }
   .first-img {
     margin-bottom: 20px;
@@ -311,6 +332,13 @@ nav li:hover {
 }
 .title {
   width:64%;
+}
+@keyframes blinkingText{
+    0%{     color: transparent;    }
+    49%{    color: yellow; }
+    50%{    color: transparent; }
+    99%{    color: yellow;  }
+    100%{   color: transparent;    }
 }
 .info {
   width: 64%;

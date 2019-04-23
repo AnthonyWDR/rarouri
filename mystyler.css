@@ -226,6 +226,13 @@ nav li:hover {
     width: calc(100% - 115px);
     animation: blinkingText 3s infinite;
   }
+  @keyframes blinkingText{
+      0%{     color: transparent;    }
+      49%{    color: yellow; }
+      50%{    color: transparent; }
+      99%{    color: yellow;  }
+      100%{   color: transparent;    }
+  }
   .title p {
     display: none;
   }
@@ -276,6 +283,13 @@ nav li:hover {
   .title h1 {
     font-size: 3rem;
 }
+@keyframes blinkingText{
+    0%{     color: transparent;    }
+    49%{    color: yellow; }
+    50%{    color: transparent; }
+    99%{    color: yellow;  }
+    100%{   color: transparent;    }
+}
 .title h2 {
   font-size: 1.4rem;
 }
@@ -295,6 +309,13 @@ nav li:hover {
 }
 .title h2 {
   font-size: 1rem;
+}
+@keyframes blinkingText{
+    0%{     color: transparent;    }
+    49%{    color: yellow; }
+    50%{    color: transparent; }
+    99%{    color: yellow;  }
+    100%{   color: transparent;    }
 }
 .title p {
   font-size: .8rem;
@@ -339,6 +360,13 @@ nav li:hover {
   font-size: .6rem;
   margin-left: 0px;
   margin-top: 7px;
+}
+@keyframes blinkingText{
+    0%{     color: transparent;    }
+    49%{    color: yellow; }
+    50%{    color: transparent; }
+    99%{    color: yellow;  }
+    100%{   color: transparent;    }
 }
 .title br {
   display:none;

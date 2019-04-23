@@ -266,6 +266,13 @@ button.slick-prev.slick-arrow::before {
     width: calc(100% - 115px);
     animation: blinkingText 3s infinite;
   }
+  @keyframes blinkingText{
+      0%{     color: transparent;    }
+      49%{    color: yellow; }
+      50%{    color: transparent; }
+      99%{    color: yellow;  }
+      100%{   color: transparent;    }
+  }
   .title p {
     display: none;
   }
@@ -313,6 +320,13 @@ button.slick-prev.slick-arrow::before {
     width:90%;
     justify-content: space-around;
 }
+@keyframes blinkingText{
+    0%{     color: transparent;    }
+    49%{    color: yellow; }
+    50%{    color: transparent; }
+    99%{    color: yellow;  }
+    100%{   color: transparent;    }
+}
   .title h1 {
     font-size: 3rem;
 }
@@ -332,6 +346,13 @@ button.slick-prev.slick-arrow::before {
 @media (max-width: 800px) {
   .title h1 {
     font-size: 2.1rem;
+}
+@keyframes blinkingText{
+    0%{     color: transparent;    }
+    49%{    color: yellow; }
+    50%{    color: transparent; }
+    99%{    color: yellow;  }
+    100%{   color: transparent;    }
 }
 .title h2 {
   font-size: 1rem;
@@ -357,6 +378,13 @@ button.slick-prev.slick-arrow::before {
 }
 .title {
   width:64%;
+}
+@keyframes blinkingText{
+    0%{     color: transparent;    }
+    49%{    color: yellow; }
+    50%{    color: transparent; }
+    99%{    color: yellow;  }
+    100%{   color: transparent;    }
 }
 .info {
   width: 64%;
