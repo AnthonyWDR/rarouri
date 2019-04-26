@@ -55,6 +55,8 @@
         </nav>
     </div>
 <div id="allcontent">
+    <div class="pageheader">
+    </div>
     <img src="images/kahaialogo.gif">
     <div class="content">
 
@@ -91,6 +93,19 @@ function myFunction() {
         $(".closebtn").click(function () {
         		$(".main-nav").hide(500);
     		});
+
+        $(window).on('load resize', function(event){
+    var windowSize = $(window).width(); // Could've done $(this).width()
+    if(windowSize < 992){
+        $(".dropdown").click(function() {
+          $(".dropdown-content").toggleClass( "show-dropdown" );
+        });
+    } else if(windowSize > 994){
+      $(".dropdown").hover(function() {
+          $(".dropdown-content").toggleClass( "show-dropdown" );
+        });
+    } 
+});
   		});
 	</script>
   </body>

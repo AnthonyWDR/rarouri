@@ -220,11 +220,15 @@ button.slick-prev.slick-arrow::before {
 .dropdown-content a:hover {background-color: #1abc9c; color: #FFFF;}
 
 /* Show the dropdown menu on hover */
+/*
 .dropdown:hover .dropdown-content {display: block;}
+*/
+.show-dropdown {
+  display: block;
+}
 
 
-
-
+/* css code added by https://www.fiverr.com/kaycobadjony */
 .openbtn {
   display: none;
 }
@@ -259,19 +263,12 @@ button.slick-prev.slick-arrow::before {
   right: 0!important;
 }
 }
-@media (max-width: 1100px) {
+@media (max-width: 1023px) {
   .mobile-tariff {
     display:block;
     text-align: center;
     width: calc(100% - 115px);
     animation: blinkingText 3s infinite;
-  }
-  @keyframes blinkingText{
-      0%{     color: transparent;    }
-      49%{    color: yellow; }
-      50%{    color: transparent; }
-      99%{    color: yellow;  }
-      100%{   color: transparent;    }
   }
   .title p {
     display: none;
@@ -314,18 +311,15 @@ button.slick-prev.slick-arrow::before {
     justify-content: flex-start;
   }
 }
-
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width:1099px) {
+  nav li {
+    padding: 21px 20.2px 21px 20.2px;
+}
+}
+@media (max-width: 1023px) {
   .bannerspacing {
     width:90%;
     justify-content: space-around;
-}
-@keyframes blinkingText{
-    0%{     color: transparent;    }
-    49%{    color: yellow; }
-    50%{    color: transparent; }
-    99%{    color: yellow;  }
-    100%{   color: transparent;    }
 }
   .title h1 {
     font-size: 3rem;
@@ -346,13 +340,6 @@ button.slick-prev.slick-arrow::before {
 @media (max-width: 800px) {
   .title h1 {
     font-size: 2.1rem;
-}
-@keyframes blinkingText{
-    0%{     color: transparent;    }
-    49%{    color: yellow; }
-    50%{    color: transparent; }
-    99%{    color: yellow;  }
-    100%{   color: transparent;    }
 }
 .title h2 {
   font-size: 1rem;
@@ -375,13 +362,6 @@ button.slick-prev.slick-arrow::before {
   .bannerspacing {
     width:95%;
     flex-direction: column;
-}
-@keyframes blinkingText{
-    0%{     color: transparent;    }
-    49%{    color: yellow; }
-    50%{    color: transparent; }
-    99%{    color: yellow;  }
-    100%{   color: transparent;    }
 }
 .title {
   width:64%;

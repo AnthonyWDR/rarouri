@@ -14,9 +14,9 @@ grey = #E1E3E4
 }
 #allcontent img {
   max-width: 30%;
-  margin-left: 2rem;
-  margin-top: 2rem;
+  margin-left: 4rem;
 }
+
 body {
   background-color: #E1E3E4;
   font-size: 18px;
@@ -28,14 +28,13 @@ header {
   justify-content: center;
 }
 .bannerspacing {
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 .title {
   align-self: flex-start;
-  margin-right: ;
 }
 .title h1 {
   font-family: "advent";
@@ -125,7 +124,7 @@ a {
   display: flex;
 }
 .container {
-  width: 1300px;
+  width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -201,9 +200,15 @@ nav li:hover {
 .dropdown-content a:hover {background-color: #1abc9c; color: #FFFF;}
 
 /* Show the dropdown menu on hover */
+/*
 .dropdown:hover .dropdown-content {display: block;}
+*/
+.show-dropdown {
+  display: block;
+}
 
 
+/* css code added by https://www.fiverr.com/kaycobadjony */
 .openbtn {
   display: none;
 }
@@ -219,19 +224,17 @@ nav li:hover {
     width: auto;
   }
 }
-@media (max-width: 1100px) {
+@media (min-width: 1024px) and (max-width:1099px) {
+  nav li {
+    padding: 21px 20.2px 21px 20.2px;
+}
+}
+@media (max-width: 1023px) {
   .mobile-tariff {
     display:block;
     text-align: center;
     width: calc(100% - 115px);
     animation: blinkingText 3s infinite;
-  }
-  @keyframes blinkingText{
-      0%{     color: transparent;    }
-      49%{    color: yellow; }
-      50%{    color: transparent; }
-      99%{    color: yellow;  }
-      100%{   color: transparent;    }
   }
   .title p {
     display: none;
@@ -283,13 +286,6 @@ nav li:hover {
   .title h1 {
     font-size: 3rem;
 }
-@keyframes blinkingText{
-    0%{     color: transparent;    }
-    49%{    color: yellow; }
-    50%{    color: transparent; }
-    99%{    color: yellow;  }
-    100%{   color: transparent;    }
-}
 .title h2 {
   font-size: 1.4rem;
 }
@@ -309,13 +305,6 @@ nav li:hover {
 }
 .title h2 {
   font-size: 1rem;
-}
-@keyframes blinkingText{
-    0%{     color: transparent;    }
-    49%{    color: yellow; }
-    50%{    color: transparent; }
-    99%{    color: yellow;  }
-    100%{   color: transparent;    }
 }
 .title p {
   font-size: .8rem;
@@ -361,13 +350,6 @@ nav li:hover {
   margin-left: 0px;
   margin-top: 7px;
 }
-@keyframes blinkingText{
-    0%{     color: transparent;    }
-    49%{    color: yellow; }
-    50%{    color: transparent; }
-    99%{    color: yellow;  }
-    100%{   color: transparent;    }
-}
 .title br {
   display:none;
 }
@@ -386,19 +368,5 @@ nav li:hover {
   font-size: .85rem;
   display: block;
   padding-bottom: 10px;
-}
-#allcontent {
-  background: url("images/slide/01.jpg") no-repeat right right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-}
-#allcontent img {
-  max-width: 40%;
-  margin-left: 2rem;
-  margin-top: 2rem;
 }
 }
