@@ -271,6 +271,13 @@ button.slick-prev.slick-arrow::before {
     width: calc(100% - 115px);
     animation: blinkingText 3s infinite;
   }
+  @keyframes blinkingText{
+      0%{     color: transparent;    }
+      49%{    color: yellow; }
+      50%{    color: transparent; }
+      99%{    color: yellow;  }
+      100%{   color: transparent;    }
+  }
   .title p {
     display: none;
   }
@@ -371,7 +378,7 @@ button.slick-prev.slick-arrow::before {
   width: 64%;
   text-align: center;
   margin-bottom: -20px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .logo {
   width: 34%;
@@ -397,14 +404,14 @@ button.slick-prev.slick-arrow::before {
   height: auto;
 }
 .tel {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   margin-left: 0;
 }
 .info ul {
   width: 100%;
 }
 .info a {
-  font-size: .85rem;
+  font-size: 1.2rem;
   display: block;
   padding-bottom: 10px;
 }
