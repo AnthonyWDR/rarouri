@@ -273,17 +273,19 @@ nav li:hover {
     padding: 21px 20.2px 21px 20.2px;
 }
 }
+@media (max-width: 1023px) {
+  @keyframes blinkingText{
+      0%{     color: transparent;    }
+      49%{    color: yellow; }
+      50%{    color: transparent; }
+      99%{    color: yellow;  }
+      100%{   color: transparent;    }
+  }
+}
 @media (max-width: 1024px) {
   .bannerspacing {
     width:90%;
     justify-content: space-around;
-}
-@keyframes blinkingText{
-    0%{     color: transparent;    }
-    49%{    color: yellow; }
-    50%{    color: transparent; }
-    99%{    color: yellow;  }
-    100%{   color: transparent;    }
 }
   .title h1 {
     font-size: 3rem;
