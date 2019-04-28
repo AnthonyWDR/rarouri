@@ -324,7 +324,7 @@ button.slick-prev.slick-arrow::before {
     padding: 21px 20.2px 21px 20.2px;
 }
 }
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .bannerspacing {
     width:90%;
     justify-content: space-around;
