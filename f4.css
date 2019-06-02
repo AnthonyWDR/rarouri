@@ -5,10 +5,6 @@ blue = #2C3E50
 grey = #E1E3E4
 */
 
-head {
-
-}
-
 body {
   background-color: #E1E3E4;
   font-size: 18px;
@@ -106,7 +102,7 @@ a {
 }
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
-  position: fixed;
+  position: ;
   top: 0;
   width: 100%;
 }
@@ -127,9 +123,8 @@ nav ul {
 nav li {
   padding: 21px 30.2px 21px 30.2px;
 }
-.container .home {
+.home {
   background-color: #1abc9c;
-  color: #FFFF;
 }
 nav li:hover {
   background-color: #1abc9c;
@@ -139,44 +134,36 @@ nav li:hover {
     transition-timing-function: ease;
     transition-delay: 0s;
 }
-.pageheader {
-  height: 60px;
-  width: 100%;
-
-}
 .content {
-  margin: 0px auto 60px auto;
   width: 1100px;
+  margin: 60px auto;
 }
-.verify h1 {
-  margin: 30px;
-  margin-left: 170px;
-  color: red;
+.content span {
   font-weight: bold;
+  color: red;
 }
-.carousel {
+.box {
+  line-height: 1.2;
+  margin: 0px 0 0px 0;
+}
+.boxtext {
+  align-self: ;
+  text-align: left;
+}
+.box img {
+  width: 20%;
+  height: 100%;
+}
+.box.one {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
-.content .freak {
-  max-width: 1100px;
-}
-.content img {
-  max-height: 618.75px;
-  align-self: center;
-}
-.allcontent {
-  margin-bottom: 60px;
-}
-.row {
+.boximage {
   display: flex;
+  justify-content: ;
 }
-button.slick-next.slick-arrow::before {
-  color: black;
-}
-button.slick-prev.slick-arrow::before {
-  color: black;
-}
+
+
 
 
 
@@ -230,6 +217,15 @@ button.slick-prev.slick-arrow::before {
 
 
 /* css code added by https://www.fiverr.com/kaycobadjony */
+.box {
+  justify-content: space-between;
+}
+.box img {
+  flex-basis: 45%;
+}
+.box .boxtext {
+  flex-basis: 45%;
+}
 .openbtn {
   display: none;
 }
@@ -240,28 +236,20 @@ button.slick-prev.slick-arrow::before {
   display: none;
   color: red;
 }
-
 @media (max-width: 1150px) {
-  .verify h1 {
-    margin-left: 0px;
-    text-align: center;
-    margin-right:0;
-}
   .content {
     width: auto;
   }
-  .slick-list.draggable {
-    width: 90%;
-    margin: 0 auto;
+  .box {
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  .box.one img, .box.three img, .box.two img, .box.four img {
+    margin:0!important;
 }
-  .content .freak {
-    max-width: 100%;
-}
-.slick-prev {
-  left: 0!important;
-}
-.slick-next {
-  right: 0!important;
+
+.box.four {
+  margin-top: 0;
 }
 }
 @media (max-width: 1023px) {
@@ -415,4 +403,49 @@ button.slick-prev.slick-arrow::before {
   display: block;
   padding-bottom: 10px;
 }
+.box {
+  width: 90%;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.box .boxtext {
+  margin-top: .5rem;
+}
+.box.two, .box.four {
+  flex-direction: column-reverse;
+}
+    .box img {
+        width:100%;
+    }
+}
+@media (max-width: 956px) {
+    .boxtext.special {
+      font-size: 30px;
+    }
+}
+@media (max-width: 897px) {
+    .boxtext.special {
+      font-size: 28px;
+    }
+}
+@media (max-width: 837px) {
+    .boxtext.special {
+      font-size: 25px;
+    }
+}
+@media (max-width: 748px) {
+    .boxtext.special {
+      font-size: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .boxtext.special {
+      font-size: 32px;
+    }
+}
+@media (max-width: 479px) {
+    .boxtext.special {
+      font-size: 25px;
+    }
 }

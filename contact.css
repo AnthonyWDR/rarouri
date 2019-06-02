@@ -102,6 +102,9 @@ a {
 .contactinfo a {
   color: blue;
 }
+.contactinfo h1 {
+  line-height: 1.2;
+}
 #fullnav {
   width: 100%;
   height: 60px;
@@ -111,8 +114,8 @@ a {
 }
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
-  position: fixed;
-  top: 0;
+
+  top:0;
   width: 100%;
 }
 

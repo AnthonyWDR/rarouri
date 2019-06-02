@@ -164,6 +164,26 @@ nav li:hover {
 .allcontent {
   margin-bottom: 60px;
 }
+.box {
+  line-height: 1.2;
+  margin: 0px 0 0px 0;
+}
+.boxtext {
+  align-self: ;
+  text-align: left;
+}
+.box img {
+  width: 20%;
+  height: 100%;
+}
+.box.one {
+  display: flex;
+  flex-direction: column;
+}
+.boximage {
+  display: flex;
+  justify-content: ;
+}
 .row {
   display: flex;
 }
