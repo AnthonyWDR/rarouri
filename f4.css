@@ -225,6 +225,7 @@ nav li:hover {
 }
 .box img {
   flex-basis: 45%;
+  max-height: 206.25px;
 }
 .box .boxtext {
   flex-basis: 45%;
