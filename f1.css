@@ -50,7 +50,7 @@ header {
 .title p {
     animation:blinkingText 3s infinite;
 }
-.verify h1 span {
+.verify .blackflash {
     animation:blinkingText2 3s infinite;
 }
 @keyframes blinkingText{
@@ -158,9 +158,10 @@ nav li:hover {
 }
 .verify h1 {
   margin: 30px;
-  margin-left: 170px;
   color: red;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 .content {
   margin: 0 auto 60px auto;
