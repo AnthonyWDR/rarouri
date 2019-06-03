@@ -67,6 +67,9 @@ header {
     99%{    color: black;  }
     100%{   color: transparent;    }
 }
+nav .red {
+  background-color: red;
+}
 .info {
   display: flex;
   align-items: flex-end;

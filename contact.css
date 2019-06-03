@@ -146,6 +146,9 @@ nav li:hover {
     transition-timing-function: ease;
     transition-delay: 0s;
 }
+nav .red {
+  background-color: red;
+}
 .content  {
   display: flex;
   width: 100%;

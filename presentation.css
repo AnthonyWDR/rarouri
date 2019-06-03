@@ -21,6 +21,9 @@ header {
   display: flex;
   justify-content: space-between;
 }
+nav .red {
+  background-color: red;
+}
 .title {
   align-self: flex-start;
 }
