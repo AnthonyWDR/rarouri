@@ -345,6 +345,18 @@ nav li:hover {
   font-size: 1.1rem;
 }
 }
+@media (max-width: 883px) {
+  .boxtext {
+    font-size: 16px;
+}
+@media (max-width: 785px) {
+  .boxtext {
+    font-size: 15px;
+}
+@media (max-width: 736px) {
+  .boxtext {
+    font-size: 14px;
+}
 @media (max-width: 800px) {
   .title h1 {
     font-size: 2.1rem;

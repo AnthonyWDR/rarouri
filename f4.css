@@ -165,7 +165,16 @@ nav li:hover {
   display: flex;
   justify-content: ;
 }
-
+.box {
+  justify-content: space-between;
+}
+.box img {
+  flex-basis: 45%;
+  max-height: 206.25px;
+}
+.box .boxtext {
+  flex-basis: 45%;
+}
 
 
 
@@ -220,16 +229,7 @@ nav li:hover {
 
 
 /* css code added by https://www.fiverr.com/kaycobadjony */
-.box {
-  justify-content: space-between;
-}
-.box img {
-  flex-basis: 45%;
-  max-height: 206.25px;
-}
-.box .boxtext {
-  flex-basis: 45%;
-}
+
 .openbtn {
   display: none;
 }
@@ -366,6 +366,13 @@ nav li:hover {
 .title {
   width:64%;
 }
+.boximage {
+  flex-wrap: wrap;
+}
+.boximage .img {
+  height: 180.42px;
+  width: 50%;
+}
 .info {
   width: 64%;
   text-align: center;
@@ -419,9 +426,7 @@ nav li:hover {
 .box.two, .box.four {
   flex-direction: column-reverse;
 }
-    .box img {
-        width:100%;
-    }
+
 }
 @media (max-width: 956px) {
     .boxtext.special {
