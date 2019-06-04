@@ -383,6 +383,11 @@ nav li:hover {
     width:95%;
     flex-direction: column;
 }
+.box {
+  display:block ;
+}
+
+
 .title {
   width:64%;
 }
@@ -437,7 +442,7 @@ nav li:hover {
   margin-top: .5rem;
 }
 .box.two, .box.four {
-  flex-direction: column-reverse;
+  flex-direction: ;
 }
     .box img {
         width:100%;

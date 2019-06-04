@@ -170,7 +170,7 @@ nav li:hover {
 }
 .box img {
   flex-basis: 45%;
-  
+
 }
 .box .boxtext {
   flex-basis: 45%;
@@ -429,8 +429,10 @@ nav li:hover {
 .box.two, .box.four {
   flex-direction: column-reverse;
 }
-
+.box.one .boximage .thirdimg {
+  width: 90%;
 }
+
 @media (max-width: 956px) {
     .boxtext.special {
       font-size: 30px;
