@@ -370,7 +370,7 @@ nav li:hover {
   flex-wrap: wrap;
 }
 .boximage .img {
-  height: 180.42px;
+  height: 100%;
   width: 50%;
 }
 .info {
