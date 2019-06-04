@@ -386,7 +386,9 @@ nav li:hover {
 .box {
   display:block ;
 }
-
+.boxtext {
+  margin-bottom: .5rem;
+}
 
 .title {
   width:64%;
