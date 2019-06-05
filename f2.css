@@ -340,6 +340,11 @@ nav li:hover {
   font-size: 1.1rem;
 }
 }
+@media (max-width: 833px) {
+  .endzone {
+    display: none;
+  }
+}
 @media (max-width: 800px) {
   .title h1 {
     font-size: 2.1rem;

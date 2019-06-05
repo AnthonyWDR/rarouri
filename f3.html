@@ -120,7 +120,31 @@ Au terme des discours et de la remise des clefs aux 8 familles, c’est en musiq
 </p>
 </div>
     </div>
-
+    <script>
+        $(document).ready(function(){
+          $(".openbtn").click(function(){
+              $(".main-nav").show(500);
+          });
+          $("li:not(.dropdown)").click(function () {
+              $(".main-nav").hide(500);
+          });
+          $(".closebtn").click(function () {
+              $(".main-nav").hide(500);
+          });
+          $(window).on('load resize', function(event){
+      var windowSize = $(window).width(); // Could've done $(this).width()
+      if(windowSize < 992){
+          $(".dropdown").click(function() {
+            $(".dropdown-content").toggleClass( "show-dropdown" );
+          });
+      } else if(windowSize > 994){
+        $(".dropdown").hover(function() {
+            $(".dropdown-content").toggleClass( "show-dropdown" );
+          });
+      }
+    });
+        });
+    </script>
       <script type="text/javascript">
       $(document).ready(function(){
         $('.content').slick({
@@ -150,30 +174,6 @@ Au terme des discours et de la remise des clefs aux 8 familles, c’est en musiq
     }
   }
   </script>
-  <script>
-	    $(document).ready(function(){
-    		$(".openbtn").click(function(){
-      			$(".main-nav").show(500);
-    		});
-        $("li:not(.dropdown)").click(function () {
-        		$(".main-nav").hide(500);
-    		});
-        $(".closebtn").click(function () {
-        		$(".main-nav").hide(500);
-    		});
-        $(window).on('load resize', function(event){
-    var windowSize = $(window).width(); // Could've done $(this).width()
-    if(windowSize < 992){
-        $(".dropdown").click(function() {
-          $(".dropdown-content").toggleClass( "show-dropdown" );
-        });
-    } else if(windowSize > 994){
-      $(".dropdown").hover(function() {
-          $(".dropdown-content").toggleClass( "show-dropdown" );
-        });
-    }
-});
-  		});
-	</script>
+
 </body>
 </html>
