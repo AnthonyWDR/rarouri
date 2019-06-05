@@ -44,7 +44,7 @@ nav .red {
 }
 .title p {
   text-align: center;
-  margin-left: 110px;
+  margin-left: ;
   font-size: 1.2rem;
   color: red;
   font-weight: bold;
@@ -77,7 +77,7 @@ nav .red {
 }
 .info a {
   color: blue;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: flex-end;
   margin-top: 5px;
@@ -365,6 +365,9 @@ button.slick-prev.slick-arrow::before {
   .title h1 {
     font-size: 2.1rem;
 }
+.column {
+  max-width: 650px;
+}
 .title h2 {
   font-size: 1rem;
 }
@@ -381,7 +384,11 @@ button.slick-prev.slick-arrow::before {
   font-size: .8rem;
 }
 }
-
+@media (max-width: 720px) {
+  .column {
+    max-width: 500px;
+  }
+}
 @media (max-width: 600px) {
   .bannerspacing {
     width:95%;
@@ -431,4 +438,14 @@ button.slick-prev.slick-arrow::before {
   display: block;
   padding-bottom: 10px;
 }
+}
+@media (max-width: 550px) {
+  .column {
+    max-width: 400px;
+  }
+}
+@media (max-width: 450px) {
+  .column {
+    max-width: 300px;
+  }
 }

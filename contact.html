@@ -35,7 +35,7 @@
 
     <div id="fullnav" style="position:sticky; z-index:1;">
         <span class="openbtn" style="font-size:30px;cursor:pointer">☰</span>
-        <p class="mobile-tariff">TARIFS PROMOTEUR</p>
+        <p class="mobile-tariff">EXCLUSIVITÉ</p>
         <nav class="container main-nav">
           <span class="closebtn" style="font-size:45px;cursor:pointer">&times;</span>
           <ul style="list-style: none;">
@@ -79,7 +79,7 @@
 
 
 <div class="contactinfo">
-<h1>Prenez contact avec Patrice Boissonnet, <br>Agence NEXTIMMO TARAVAO <br><span style="font-weight:lighter;">(bureau au centre commercial TAUHERE)</span></h1>
+<h2>Prenez contact avec Patrice Boissonnet, <br><span style="line-height:1.4;">Agence NEXTIMMO TARAVAO</span> <br><span style="font-weight:lighter; color:black; font-size:15px;">(bureau au centre commercial TAUHERE)</span></h2>
 <br>
 <p>- Par Tél. = 87 76 41 87</p>
 <p>- Par mail = <a href="mailto:patrice@nextimmo.pf?subject=Rarouri">patrice@nextimmo.pf</a></p>
@@ -88,6 +88,20 @@
     </div>
 
   </div>
+  <script>
+window.onscroll = function() {myFunction()};
+
+var fullnav = document.getElementById("fullnav");
+var sticky = fullnav.offsetTop;
+
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+  fullnav.classList.add("sticky")
+} else {
+  fullnav.classList.remove("sticky");
+}
+}
+</script>
   <script>
 	    $(document).ready(function(){
     		$(".openbtn").click(function(){

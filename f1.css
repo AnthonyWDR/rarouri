@@ -41,7 +41,7 @@ header {
 }
 .title p {
   text-align: center;
-  margin-left: 110px;
+  margin-left: ;
   font-size: 1.2rem;
   color: red;
   font-weight: bold;
@@ -87,7 +87,7 @@ nav .red {
 }
 .info a {
   color: blue;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: flex-end;
   margin-top: 5px;
@@ -157,7 +157,7 @@ nav li:hover {
 
 }
 .verify h1 {
-  margin: 30px;
+  margin: 15px;
   color: red;
   font-weight: bold;
   display: flex;

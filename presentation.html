@@ -35,7 +35,7 @@
 
     <div id="fullnav" style="position:sticky; z-index:1;">
         <span class="openbtn" style="font-size:30px;cursor:pointer">☰</span>
-        <p class="mobile-tariff">TARIFS PROMOTEUR</p>
+        <p class="mobile-tariff">EXCLUSIVITÉ</p>
         <nav class="container main-nav">
           <span class="closebtn" style="font-size:45px;cursor:pointer">&times;</span>
           <ul style="list-style: none;">
@@ -61,7 +61,7 @@
 <span>LE « PROGRAMME RAROURI », C'EST QUOI ?</span> <br><br>
 Le «Programme RAROURI», sis à la Presqu'île, est un programme d’accession à la propriété géré par le promoteur Terai BORDES en partenariat avec : La commune de TARAVAO, le Pays par l’intermédiaire du Ministère du logement, et l’Etat.
 <br><br>
-L’intérêt du «concept RAROURI» est de répartir les logements en plusieurs sites pour conserver une qualité de vie à ses résidents.
+<span style="font-weight:bold; color: black;">L’intérêt du «concept RAROURI» est de répartir les logements en plusieurs sites pour conserver une qualité de vie à ses résidents.</span>
 </div>
       </div>
 
@@ -70,7 +70,7 @@ L’intérêt du «concept RAROURI» est de répartir les logements en plusieurs
           <span>COMMENT CELA FONCTIONNE ?</span> <br><br>
           Les candidats à l’acquisition doivent remplir un dossier et répondre à des critères (avec vérification des conditions requises), lequel est validé par les autorités en charge dans le cadre d’une commission.
 <br><br>
-Suivant les conditions édictées par le Territoire, les personnes éligibles doivent répondre à un plafond de revenu maximum selon la composition de la famille, et ne pas être déjà propriétaires.
+<span style="font-weight:bold; color: black;">Suivant les conditions édictées par le Territoire, les personnes éligibles doivent répondre à un plafond de revenu maximum selon la composition de la famille, et ne pas être déjà propriétaires.</span>
         </div>
         <img src="images/PC2.JPG">
       </div>
@@ -80,6 +80,21 @@ Suivant les conditions édictées par le Territoire, les personnes éligibles do
 
   </div>
   <script>
+window.onscroll = function() {myFunction()};
+
+var fullnav = document.getElementById("fullnav");
+var sticky = fullnav.offsetTop;
+
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+  fullnav.classList.add("sticky")
+} else {
+  fullnav.classList.remove("sticky");
+}
+}
+</script>
+  <script>
+
 	    $(document).ready(function(){
     		$(".openbtn").click(function(){
       			$(".main-nav").show(500);

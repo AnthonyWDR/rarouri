@@ -35,7 +35,7 @@
 
     <div id="fullnav" style="position:sticky; z-index:1;">
         <span class="openbtn" style="font-size:30px;cursor:pointer">☰</span>
-        <p class="mobile-tariff">TARIFS PROMOTEUR</p>
+        <p class="mobile-tariff">EXCLUSIVITÉ</p>
         <nav class="container main-nav">
           <span class="closebtn" style="font-size:45px;cursor:pointer">&times;</span>
           <ul style="list-style: none;">
@@ -57,7 +57,7 @@
 
       <div class="box one">
         <div style="margin-bottom:1rem;" class="boxtext">
-          <span>RAROURI 1</span> - Il s’agit de 6 maisons F4 de 90 m2 implantées à AFAAHITI PK 4.1, à 100 mètres<br class="endzone"> de la route de ceinture. 2 d'entre elles bénéficient d’une jolie vue mer.
+          <span>RAROURI 1</span> - Il s’agit de 6 maisons F4 de 90 m2 implantées à AFAAHITI PK 4.1, à 100 mètres<br class="endzone"> de la route de ceinture. 2 d'entre elles bénéficient d’une jolie vue mer. <span style="font-weight: bold; color: black;">Livrées en Avril 2019.</span>
         </div>
         <div class="boximage">
           <img src="images/DJ/FARE-RAROURI-Logo-1.jpg">
@@ -69,13 +69,13 @@
 
       <div class="box one">
         <div style="margin-bottom:1rem; margin-top:3rem;" class="boxtext">
-          <span>RAROURI 2</span> - 2 maisons F4 de 90 m2 posées sur petite hauteur de la dorsale de AFAAHITI, face au Motu Nono. <br class="endzone">Un site calme et une vue exceptionnelle.
+          <span>RAROURI 2</span> - 2 maisons F4 de 90 m2 posées sur petite hauteur de la dorsale de AFAAHITI, face au Motu Nono. <br class="endzone">Un site calme et une vue exceptionnelle. <span style="font-weight: bold; color: black;">Livrées en Avril 2019.</span>
         </div>
         <div class="boximage">
           <img src="images/DJ/01a-Photo + logo.jpg">
+          <img src="images/DJ/03 LM T4 AFAAHITI.JPG">
           <img src="images/DJ/02a-RAROURI 2-Montage page 2 diaporama.jpg">
           <img src="images/DJ/02b-RAROURI 2-Montage page 3 diaporama.jpg">
-          <img src="images/DJ/03 LM T4 AFAAHITI.JPG">
       </div>
       </div>
 
@@ -83,6 +83,20 @@
     </div>
 
   </div>
+  <script>
+window.onscroll = function() {myFunction()};
+
+var fullnav = document.getElementById("fullnav");
+var sticky = fullnav.offsetTop;
+
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+  fullnav.classList.add("sticky")
+} else {
+  fullnav.classList.remove("sticky");
+}
+}
+</script>
   <script>
 	    $(document).ready(function(){
     		$(".openbtn").click(function(){

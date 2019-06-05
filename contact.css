@@ -43,7 +43,7 @@ label {
 }
 .title p {
   text-align: center;
-  margin-left: 110px;
+  margin-left: ;
   font-size: 1.2rem;
   color: red;
   font-weight: bold;
@@ -76,7 +76,7 @@ label {
 }
 .info a {
   color: blue;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: flex-end;
   margin-top: 5px;
