@@ -463,6 +463,11 @@ nav li:hover {
       font-size: 32px;
     }
 }
+@media (max-width: 563px) {
+    .gone {
+      display: none;
+    }
+}
 @media (max-width: 479px) {
     .boxtext.special {
       font-size: 25px;
