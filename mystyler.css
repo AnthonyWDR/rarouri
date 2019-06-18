@@ -13,10 +13,26 @@ grey = #E1E3E4
   height: 900px;
   min-width: 100%;
 }
-#allcontent img {
+.rarourihome {
+  display: flex;
+}
+.rarouriimg {
   max-width: 20%;
-  float: left;
   margin-left: 20px;
+}
+.rarouritext {
+  min-width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.rarourihome p {
+  line-height: 1.2;
+  font-size: 1.5rem;
+  align-self: center;
+  color: white;
 }
 nav .red {
   background-color: red;
@@ -328,6 +344,11 @@ nav li:hover {
       100%{   color: transparent;    }
   }
 }
+@media (max-width: 1045px) {
+  .gone {
+    display: none;
+  }
+}
 @media (max-width: 900px) {
   #allcontent {
     max-height: 500px;
@@ -352,6 +373,16 @@ nav li:hover {
 .info a {
   font-size: .8rem;
 }
+}
+@media (max-width: 760px) {
+  .gone {
+    display: none;
+  }
+}
+@media (max-width: 735px) {
+  .rarouritext p {
+    font-size: 16px;
+  }
 }
 @media (max-width: 720px) {
   #allcontent {
@@ -425,9 +456,19 @@ nav li:hover {
     max-height: 300px;
   }
 }
+@media (max-width: 438px) {
+  .rarouritext p {
+    font-size: 14px;
+  }
+}
 @media (max-width: 400px) {
   #allcontent {
     max-height: 250px;
+  }
+}
+@media (max-width: 383px) {
+  .rarouritext p {
+    font-size: 12px;
   }
 }
 @media (max-width: 320px) {
